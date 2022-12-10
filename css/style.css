@@ -1,3 +1,7 @@
+body {
+    background-color: aquamarine;
+}
+
 #navbar-header {
     color: #ffffff;
 }
@@ -8,3 +12,50 @@
     border-radius: 50%;
 }
 
+.portfolio-1 {
+    width: 85%;
+    /* height: 500px; */
+    border: 5px solid #333333;
+    border-width: 15px;
+}
+
+.portfolio-2, .portfolio-3 {
+    width: 90%;
+    border: 5px solid #333333;
+    border-width: 5px;
+}
+
+
+.content {
+    padding: 50px;
+}
+
+.about, .contact {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.side-accent {
+    background: #007bff;
+    width: 15px;
+}
+
+.image-container {
+    padding: 50px;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.size {
+    flex-basis: 250px;
+    flex-grow: 0;
+    flex-shrink: 3;
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+}
