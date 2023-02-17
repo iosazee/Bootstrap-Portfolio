@@ -1,5 +1,5 @@
 body, .navbar {
-    background-color:  #0995e6;
+    background: linear-gradient(to right, #00FAFA33, #FAFA33, #00FAFA33)
 }
 
 
@@ -35,8 +35,13 @@ body, .navbar {
     font-size: 1.5rem;
 }
 
+hr {
+    border-top: 1rem dashed;
+}
+
+
 #work-header {
-    color: #ffffff;
+    color: #333333;
     font-weight: bold;
     text-decoration: underline;
     padding-bottom: 1rem;
@@ -84,8 +89,16 @@ body, .navbar {
     width: 15px;
 }
 
+.skills {
+   flex-wrap: wrap;
+
+}
+
 .skill {
     margin: 0.5rem;
+    width: 365px;
+    border: 5px solid #333333;
+    border-width: 0.5rem;
 }
 
 .image-container {
@@ -95,6 +108,7 @@ body, .navbar {
 .image-container img {
     width: 100%;
 }
+
 
 .size {
     flex-basis: 250px;
